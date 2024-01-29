@@ -21,5 +21,8 @@ public class FindLargeNumber {
         int largest2 = c > largest1 ? c : largest1;
         System.out.println("Largest number is " + largest2);
 
+        int largest = c > (a > b ? a : b) ? c : (a > b ? a : b);
+        System.out.println("Largest number is " + largest);
+
     }
 }
