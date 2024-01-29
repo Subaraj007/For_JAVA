@@ -8,13 +8,13 @@ public class Palindrome {
         String userInput = myInput.nextLine();
         StringBuffer sBuffer = new StringBuffer(String.valueOf(userInput));
         StringBuffer rev = sBuffer.reverse();
-        System.out.println(rev);
+        // System.out.println(rev);
         String revString = rev.toString();
         if (userInput.equals(revString)) {
-            System.out.println("This is palindrome.");
+            System.out.println(userInput + " This is palindrome.");
 
         } else {
-            System.out.println("This is not palindrome.");
+            System.out.println(userInput + " This is not palindrome.");
         }
 
     }
