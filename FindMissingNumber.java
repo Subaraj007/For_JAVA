@@ -1,4 +1,6 @@
-
+/**
+ * @author Subaraj
+ */
 public class FindMissingNumber {
     public static void main(String[] args) {
         // Should not have duplicate
