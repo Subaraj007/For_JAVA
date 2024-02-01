@@ -20,7 +20,7 @@ public class FindMissingNumber {
         }
         System.out.println("sum2 " + sum2);
 
-        int missingNum = sum2 - sum1;
-        System.out.println("Missing nmber is " + missingNum);
+        // int missingNum sum2 mins sum1
+        System.out.println("Missing nmber is " + (sum2 - sum1));
     }
 }
